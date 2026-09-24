@@ -19,6 +19,14 @@
                     extra_fields: [],
                     baseUrl: 'https://omnichannel.qiscus.com',
                     qismoIframeUrl: 'https://omnichannel.qiscus.com',
+                      widgetCustomCSS: `
+                        .qcw-copyright {
+                          font-size: 0 !important;
+                        }
+                        .qcw-copyright a {
+                          display: none !important;
+                        }
+                      `,
                   },
                 });
               }
